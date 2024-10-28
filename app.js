@@ -12,7 +12,6 @@ let users = 0;
 
 io.on("connection", (socket) => {
     users++;
-    console.log("new user connected with id " + socket.id)
     socket.on("sendMsg", (data) => {
         io.emit("receiveMsg", data);
     });
