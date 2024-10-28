@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-area {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-message {
+    width: 100vw;
+    height: 90vh;
+    background-color: #111111;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-top: 20px;
+}
+
+.text-sec {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputField {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #222222;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.message{
+    margin: 10px;
+}
+
+.message p{
+    min-width: 10%;
+    max-width: 50%;
+    text-wrap: balance;
+    line-break: anywhere;
+    overflow: hidden;
+    padding: 10px;
+    background-color: #3f3f3f;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.message p.author{
+    color: #ebebeb;
+    background: transparent;
+    margin-bottom: 10px;
+}
+
+.come{
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+.go{
+    display: flex;
+    justify-content: start;
+    margin-left: 20px;
+}
